@@ -1,0 +1,11 @@
+{
+  "enabledCssSnippets": [
+    "tasks"
+  ],
+  "cssTheme": "Obsidian Nord",
+  "accentColor": "#ebca8b",
+  "showRibbon": true,
+  "translucency": false,
+  "theme": "system",
+  "interfaceFontFamily": "Inter"
+}

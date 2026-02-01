@@ -1,0 +1,50 @@
+.cm-formatting {
+  display: none;
+}
+
+.callout-content .external-link,
+.callout-content .cm-underline {
+  color: rgb(var(--callout-color)) !important;
+  background-color: rgba(var(--callout-color), 0.1) !important;
+  padding: var(--tag-padding-x) !important;
+  border-radius: 12px !important;
+  padding: var(--tag-padding-x) !important;
+  text-decoration: none !important;
+  background-image: none !important;
+}
+
+.cm-s-obsidian span.cm-link:hover {
+  text-decoration: none !important;
+}
+
+.workspace-tab-header-status-icon.mod-pinned {
+  display: none !important;
+}
+
+.callout {
+  padding: var(--size-4-3) var(--size-4-6) var(--size-4-3) var(--size-4-6);
+}
+
+.callout-content p {
+  display: flex;
+  gap: 12px 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.callout-content p .external-link,
+.callout-content p .cm-underline {
+  flex: 0 1 auto;
+  font-size: 16px;
+}
+
+.callout[data-callout="info"] .external-link,
+.callout[data-callout="info"] .cm-underline,
+.callout[data-callout="important"] .external-link,
+.callout[data-callout="important"] .cm-underline {
+  flex: 1 1 30% !important;
+  font-size: 18px !important;
+  font-weight: bold;
+}
